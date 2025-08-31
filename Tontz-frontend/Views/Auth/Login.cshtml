@@ -1,0 +1,28 @@
+﻿@model Tontz_frontend.Models.LoginViewModel
+
+<div class="container mt-5">
+    <h2 class="text-center">Login - HelpDesk</h2>
+
+    <form asp-action="Login" method="post" class="mt-4">
+        <div class="form-group mb-3">
+            <label for="username">Usuário</label>
+            <input asp-for="Username" class="form-control" id="username" />
+        </div>
+        <div class="form-group mb-3">
+            <label for="password">Senha</label>
+            <input asp-for="Password" type="password" class="form-control" id="password" />
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Entrar</button>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        // Se houver mensagem no TempData, exibe alert
+        @if (TempData["Message"] != null) {
+            <text>
+                    alert("@TempData["Message"]");
+            </text>
+        }
+    </script>
+}
