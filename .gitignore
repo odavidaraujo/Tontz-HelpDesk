@@ -1,0 +1,54 @@
+## Build Folders
+bin/
+obj/
+out/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / JetBrains
+.idea/
+
+## Logs
+*.log
+*.tlog
+
+## Packages
+*.nupkg
+*.snupkg
+*.dotCover
+packages/
+
+## EF Core Migrations
+Migrations/
+
+## User-specific files
+*.rsuser
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.lock.json
+
+## ASP.NET Core / EF Core
+appsettings.json
+*.db
+*.sqlite
+
+## Node / Frontend (React / JS)
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
